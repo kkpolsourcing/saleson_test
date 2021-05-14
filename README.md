@@ -30,3 +30,4 @@
 3. `sudo docker-compose up`
 4. W innej konsoli: `sudo docker exec -it demo-php bash`
 5. Po otworzeniu się basha w nowootwartej konsoli: `composer install && yarn install && yarn run dev`
+6. Strona jest dostępna pod adresem: http://localhost:9876/ 
