@@ -21,4 +21,12 @@
 5. `yarn run dev`
 6. `symfony server:start`
 7. `symfony console doctrine:database:create`
-   > To nie powinno być konieczne. Trzeba jednak odpalić jakby występowały błędy z błędnie skonfigurowaną bazą danych. 
+   > To nie powinno być konieczne. Trzeba jednak odpalić jakby występowały błędy z błędnie skonfigurowaną bazą danych
+
+## Uruchomienie - docker
+
+1. `git clone https://github.com/jerzy-dudzic/saleson_test.git`
+2. `cd saleson_test`
+3. `sudo docker-compose up`
+4. W innej konsoli: `sudo docker exec -it demo-php bash`
+5. Po otworzeniu się basha w nowootwartej konsoli: `composer install && yarn install && yarn run dev`
